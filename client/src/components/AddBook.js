@@ -51,11 +51,10 @@ class AddBook extends Component {
             <div className="field">
                 <label>Author:</label>
                 <select onChange={ (e) => this.setState({ authorId: e.target.value })}>
-                    <option>Select author</option>
+                    <option>Select Author</option>
                     { this.displayAuthors() }
                 </select>
             </div>
-
             <button>+</button>
         </form>
         )
